@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "LoginViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-  // Override point for customization after application launch.
+
+  //创建窗口
+  self.window=[[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+  //设置背景颜色
+  self.window.backgroundColor=[UIColor whiteColor];
+  //让窗口显示出来
+  [self.window makeKeyAndVisible];
+  
+  LoginViewController *loginVC=[[LoginViewController alloc]init];
+  
+  self.window.rootViewController=loginVC;
   return YES;
 }
 

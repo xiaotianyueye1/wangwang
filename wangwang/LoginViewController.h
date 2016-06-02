@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  LoginViewController.h
 //  wangwang
 //
-//  Created by mac on 16/6/1.
+//  Created by mac on 16/6/2.
 //  Copyright © 2016年 王晓东. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface LoginViewController : UIViewController
 
 @end
-

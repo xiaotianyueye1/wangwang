@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04DEAEA91CFFD26A00154A1C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DEAEA81CFFD26A00154A1C /* LoginViewController.m */; };
+		04DEAEB01CFFD47000154A1C /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04DEAEAB1CFFD47000154A1C /* 0.jpg */; };
+		04DEAEB11CFFD47000154A1C /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04DEAEAC1CFFD47000154A1C /* 1.jpg */; };
+		04DEAEB21CFFD47000154A1C /* desk_001 (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04DEAEAD1CFFD47000154A1C /* desk_001 (1).jpg */; };
+		04DEAEB31CFFD47000154A1C /* DogLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04DEAEAE1CFFD47000154A1C /* DogLogo.jpg */; };
+		04DEAEB41CFFD47000154A1C /* LoginBackground.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 04DEAEAF1CFFD47000154A1C /* LoginBackground.jpeg */; };
 		04FEA5901CFE87570041ED7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FEA58F1CFE87570041ED7B /* main.m */; };
 		04FEA5931CFE87570041ED7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FEA5921CFE87570041ED7B /* AppDelegate.m */; };
-		04FEA5961CFE87570041ED7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FEA5951CFE87570041ED7B /* ViewController.m */; };
-		04FEA5991CFE87570041ED7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FEA5971CFE87570041ED7B /* Main.storyboard */; };
 		04FEA59B1CFE87570041ED7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FEA59A1CFE87570041ED7B /* Assets.xcassets */; };
 		04FEA59E1CFE87570041ED7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FEA59C1CFE87570041ED7B /* LaunchScreen.storyboard */; };
 		0C944AFB5FE2AB2ED9CF3600 /* libPods-wangwang.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3EA26CA21F417F86B187058 /* libPods-wangwang.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04DEAEA71CFFD26A00154A1C /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		04DEAEA81CFFD26A00154A1C /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		04DEAEAB1CFFD47000154A1C /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		04DEAEAC1CFFD47000154A1C /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		04DEAEAD1CFFD47000154A1C /* desk_001 (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "desk_001 (1).jpg"; sourceTree = "<group>"; };
+		04DEAEAE1CFFD47000154A1C /* DogLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DogLogo.jpg; sourceTree = "<group>"; };
+		04DEAEAF1CFFD47000154A1C /* LoginBackground.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LoginBackground.jpeg; sourceTree = "<group>"; };
 		04FEA58B1CFE87570041ED7B /* wangwang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wangwang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FEA58F1CFE87570041ED7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04FEA5911CFE87570041ED7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04FEA5921CFE87570041ED7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		04FEA5941CFE87570041ED7B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		04FEA5951CFE87570041ED7B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		04FEA5981CFE87570041ED7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04FEA59A1CFE87570041ED7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04FEA59D1CFE87570041ED7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04FEA59F1CFE87570041ED7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,6 +52,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04DEAEAA1CFFD45B00154A1C /* 登陆界面图片 */ = {
+			isa = PBXGroup;
+			children = (
+				04DEAEAB1CFFD47000154A1C /* 0.jpg */,
+				04DEAEAC1CFFD47000154A1C /* 1.jpg */,
+				04DEAEAD1CFFD47000154A1C /* desk_001 (1).jpg */,
+				04DEAEAE1CFFD47000154A1C /* DogLogo.jpg */,
+				04DEAEAF1CFFD47000154A1C /* LoginBackground.jpeg */,
+			);
+			name = "登陆界面图片";
+			sourceTree = "<group>";
+		};
 		04FEA5821CFE87570041ED7B = {
 			isa = PBXGroup;
 			children = (
@@ -65,11 +85,11 @@
 		04FEA58D1CFE87570041ED7B /* wangwang */ = {
 			isa = PBXGroup;
 			children = (
+				04DEAEAA1CFFD45B00154A1C /* 登陆界面图片 */,
 				04FEA5911CFE87570041ED7B /* AppDelegate.h */,
 				04FEA5921CFE87570041ED7B /* AppDelegate.m */,
-				04FEA5941CFE87570041ED7B /* ViewController.h */,
-				04FEA5951CFE87570041ED7B /* ViewController.m */,
-				04FEA5971CFE87570041ED7B /* Main.storyboard */,
+				04DEAEA71CFFD26A00154A1C /* LoginViewController.h */,
+				04DEAEA81CFFD26A00154A1C /* LoginViewController.m */,
 				04FEA59A1CFE87570041ED7B /* Assets.xcassets */,
 				04FEA59C1CFE87570041ED7B /* LaunchScreen.storyboard */,
 				04FEA59F1CFE87570041ED7B /* Info.plist */,
@@ -164,9 +184,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04DEAEB01CFFD47000154A1C /* 0.jpg in Resources */,
+				04DEAEB41CFFD47000154A1C /* LoginBackground.jpeg in Resources */,
+				04DEAEB11CFFD47000154A1C /* 1.jpg in Resources */,
 				04FEA59E1CFE87570041ED7B /* LaunchScreen.storyboard in Resources */,
+				04DEAEB31CFFD47000154A1C /* DogLogo.jpg in Resources */,
+				04DEAEB21CFFD47000154A1C /* desk_001 (1).jpg in Resources */,
 				04FEA59B1CFE87570041ED7B /* Assets.xcassets in Resources */,
-				04FEA5991CFE87570041ED7B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,23 +249,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04FEA5961CFE87570041ED7B /* ViewController.m in Sources */,
 				04FEA5931CFE87570041ED7B /* AppDelegate.m in Sources */,
 				04FEA5901CFE87570041ED7B /* main.m in Sources */,
+				04DEAEA91CFFD26A00154A1C /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		04FEA5971CFE87570041ED7B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04FEA5981CFE87570041ED7B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		04FEA59C1CFE87570041ED7B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
