@@ -13,6 +13,7 @@
 		04FEA5991CFE87570041ED7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FEA5971CFE87570041ED7B /* Main.storyboard */; };
 		04FEA59B1CFE87570041ED7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FEA59A1CFE87570041ED7B /* Assets.xcassets */; };
 		04FEA59E1CFE87570041ED7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FEA59C1CFE87570041ED7B /* LaunchScreen.storyboard */; };
+		0C944AFB5FE2AB2ED9CF3600 /* libPods-wangwang.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3EA26CA21F417F86B187058 /* libPods-wangwang.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		04FEA59A1CFE87570041ED7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04FEA59D1CFE87570041ED7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04FEA59F1CFE87570041ED7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86BA6BEAD7CE783B76AF1A38 /* Pods-wangwang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wangwang.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wangwang/Pods-wangwang.debug.xcconfig"; sourceTree = "<group>"; };
+		B9CD5F7D0BE01F5AAC36FD3A /* Pods-wangwang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wangwang.release.xcconfig"; path = "Pods/Target Support Files/Pods-wangwang/Pods-wangwang.release.xcconfig"; sourceTree = "<group>"; };
+		C3EA26CA21F417F86B187058 /* libPods-wangwang.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wangwang.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C944AFB5FE2AB2ED9CF3600 /* libPods-wangwang.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,8 @@
 			children = (
 				04FEA58D1CFE87570041ED7B /* wangwang */,
 				04FEA58C1CFE87570041ED7B /* Products */,
+				5241DDB18230ACA799EC8865 /* Pods */,
+				CBC79746DC35684C0AAE32E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +86,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5241DDB18230ACA799EC8865 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86BA6BEAD7CE783B76AF1A38 /* Pods-wangwang.debug.xcconfig */,
+				B9CD5F7D0BE01F5AAC36FD3A /* Pods-wangwang.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CBC79746DC35684C0AAE32E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3EA26CA21F417F86B187058 /* libPods-wangwang.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04FEA5A21CFE87570041ED7B /* Build configuration list for PBXNativeTarget "wangwang" */;
 			buildPhases = (
+				9F0BF404BB9F2AFC1924ED7D /* 📦 Check Pods Manifest.lock */,
 				04FEA5871CFE87570041ED7B /* Sources */,
 				04FEA5881CFE87570041ED7B /* Frameworks */,
 				04FEA5891CFE87570041ED7B /* Resources */,
+				83EED003FE8A5F8C8244EFA9 /* 📦 Embed Pods Frameworks */,
+				5DCBD0C889A308C92C55B870 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,6 +171,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5DCBD0C889A308C92C55B870 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wangwang/Pods-wangwang-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83EED003FE8A5F8C8244EFA9 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wangwang/Pods-wangwang-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F0BF404BB9F2AFC1924ED7D /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04FEA5871CFE87570041ED7B /* Sources */ = {
@@ -262,6 +337,7 @@
 		};
 		04FEA5A31CFE87570041ED7B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86BA6BEAD7CE783B76AF1A38 /* Pods-wangwang.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = wangwang/Info.plist;
@@ -273,6 +349,7 @@
 		};
 		04FEA5A41CFE87570041ED7B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9CD5F7D0BE01F5AAC36FD3A /* Pods-wangwang.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = wangwang/Info.plist;
@@ -301,6 +378,7 @@
 				04FEA5A41CFE87570041ED7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
