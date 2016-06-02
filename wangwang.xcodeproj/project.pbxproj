@@ -17,6 +17,7 @@
 		04FEA5931CFE87570041ED7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FEA5921CFE87570041ED7B /* AppDelegate.m */; };
 		04FEA59B1CFE87570041ED7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FEA59A1CFE87570041ED7B /* Assets.xcassets */; };
 		04FEA59E1CFE87570041ED7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FEA59C1CFE87570041ED7B /* LaunchScreen.storyboard */; };
+		04FFEC071D000EDE0097625D /* SetDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FFEC061D000EDE0097625D /* SetDataViewController.m */; };
 		0C944AFB5FE2AB2ED9CF3600 /* libPods-wangwang.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3EA26CA21F417F86B187058 /* libPods-wangwang.a */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,8 @@
 		04FEA59A1CFE87570041ED7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04FEA59D1CFE87570041ED7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04FEA59F1CFE87570041ED7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FFEC051D000EDE0097625D /* SetDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetDataViewController.h; sourceTree = "<group>"; };
+		04FFEC061D000EDE0097625D /* SetDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetDataViewController.m; sourceTree = "<group>"; };
 		86BA6BEAD7CE783B76AF1A38 /* Pods-wangwang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wangwang.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wangwang/Pods-wangwang.debug.xcconfig"; sourceTree = "<group>"; };
 		B9CD5F7D0BE01F5AAC36FD3A /* Pods-wangwang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wangwang.release.xcconfig"; path = "Pods/Target Support Files/Pods-wangwang/Pods-wangwang.release.xcconfig"; sourceTree = "<group>"; };
 		C3EA26CA21F417F86B187058 /* libPods-wangwang.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wangwang.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +93,8 @@
 				04FEA5921CFE87570041ED7B /* AppDelegate.m */,
 				04DEAEA71CFFD26A00154A1C /* LoginViewController.h */,
 				04DEAEA81CFFD26A00154A1C /* LoginViewController.m */,
+				04FFEC051D000EDE0097625D /* SetDataViewController.h */,
+				04FFEC061D000EDE0097625D /* SetDataViewController.m */,
 				04FEA59A1CFE87570041ED7B /* Assets.xcassets */,
 				04FEA59C1CFE87570041ED7B /* LaunchScreen.storyboard */,
 				04FEA59F1CFE87570041ED7B /* Info.plist */,
@@ -252,6 +257,7 @@
 				04FEA5931CFE87570041ED7B /* AppDelegate.m in Sources */,
 				04FEA5901CFE87570041ED7B /* main.m in Sources */,
 				04DEAEA91CFFD26A00154A1C /* LoginViewController.m in Sources */,
+				04FFEC071D000EDE0097625D /* SetDataViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

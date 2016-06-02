@@ -8,6 +8,7 @@
 
 #import "LoginViewController.h"
 #import "Masonry.h"
+#import "SetDataViewController.h"
 //#define MAS_SHORTHAND_GLOBALS
 
 @interface LoginViewController ()<UITextFieldDelegate>
@@ -422,8 +423,14 @@
 //登录按钮
 -(void)loginaa:(UIButton *)loginButton{
   
-  NSLog(@"登录");
-  
+    SetDataViewController *setVC = [[SetDataViewController alloc]init];   
+    
+    [self presentViewController:setVC animated:YES completion:^{
+        
+        
+    }];
+    
+    NSLog(@"登录");  
 }
 
 //验证码按钮
